@@ -1,0 +1,43 @@
+body,html{
+    
+    background-color: rgb(35, 86, 11);
+    
+    margin: 0;
+}
+
+.parent-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+     
+ }
+ 
+ .centered-div{
+     align-items: center;
+ }
+ 
+ nav{
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 2rem;
+     padding-top: 1rem;
+     font-size: x-large;
+     background-color: black;
+     
+ 
+ }
+ 
+ a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     
+ }
+
+ .success{
+     color: rgb(227, 255, 47);
+ }
+
+ .error{
+    color: rgb(255, 98, 0);
+ }
